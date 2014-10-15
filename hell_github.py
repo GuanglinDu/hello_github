@@ -17,9 +17,17 @@ class HelloGit(object):
 		self.name = name
 		print("Hello, %s!" % self.name)
 
-
+		
+	def sum(self):
+		a = 1
+		b = 2
+		sum = a + b
+		print("a, b, sum = %i, %i, %i" % (a, b, sum))
+		
+		
 if __name__ == '__main__':
 	hg = HelloGit()
 	hg.hello_github()
 	hg.say_something()
+	hg.sum()
 	
