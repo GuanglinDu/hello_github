@@ -3,7 +3,7 @@ The 1st test project on github to learn how to collaborate, created by Jia Lia &
 Oct. 15, 2014 Wed.
 """
 
-class HelloGit(object):
+class HelloGithub(object):
 	
 	def __init__(self):
 		self.name = "github"
@@ -26,7 +26,7 @@ class HelloGit(object):
 		
 		
 if __name__ == '__main__':
-	hg = HelloGit()
+	hg = HelloGithub()
 	hg.hello_github()
 	hg.say_something()
 	hg.sum()
