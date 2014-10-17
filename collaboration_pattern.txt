@@ -1,0 +1,21 @@
+Oct. 15, 2014 Wed. by DGL.
+
+Forking vs. Branching in GitHub
+http://stackoverflow.com/questions/3611256/forking-vs-branching-in-github
+
+The general pattern is as follows:
+
+1. Fork the original project's repository to have your own GitHub copy, to which you'll then be allowed to push changes.
+
+2. Clone your GitHub repository onto your local machine
+
+3. Optionally, add the original repository as an additional remote repository on your local repository. You'll then be able to fetch changes published in that repository directly.
+
+4. Make your modifications and your own commits locally.
+
+5. Push your changes to your GitHub repository (as you generally won't have the write permissions on the project's repository directly).
+
+6. Contact the project's maintainers and ask them to fetch your changes and review/merge, and let them push back to the project's repository (if you and them want to).
+
+Without this, it's quite unusual for public projects to let anyone push their own commits directly.
+
