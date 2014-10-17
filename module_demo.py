@@ -19,8 +19,10 @@ class ModuleDemo(object):
 	
 	def hi_github(self):
 			self.hgb.hello_github()
+			self.hgb.sum()
 		
 
 if __name__ == '__main__':
 	md = ModuleDemo("lijia")
 	md.hello_module()
+	md.hi_github()
