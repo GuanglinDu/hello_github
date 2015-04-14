@@ -8,21 +8,21 @@ Created by DGL on Oct. 17, 2014 Fri.
 import hello_github
 
 class ModuleDemo(object):
-	def __init__(self, name):
-		self.name = name
-		self.hgb = hello_github.HelloGithub()
+    def __init__(self, name):
+        self.name = name
+        self.hgb = hello_github.HelloGithub()
 
-	
-	def hello_module(self):
-		print("Hi, in Python a module is a Python file!")
-	
-	
-	def hi_github(self):
-			self.hgb.hello_github()
-			self.hgb.sum()
-		
+    
+    def hello_module(self):
+        print("Hi, in Python a module is a Python file!")
+    
+    
+    def hi_github(self):
+            self.hgb.hello_github()
+            self.hgb.sum()
+        
 
 if __name__ == '__main__':
-	md = ModuleDemo("lijia")
-	md.hello_module()
-	md.hi_github()
+    md = ModuleDemo("lijia")
+    md.hello_module()
+    md.hi_github()

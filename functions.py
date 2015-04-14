@@ -1,0 +1,20 @@
+# Global
+a = 10
+
+def someFunction():
+    print("boo")
+
+def someFunction2(a, b):
+    print(a + b)
+    c = a + b
+    print('a + b = %i' % c)
+    print('a + b = %i' % (a+b))    
+    print('a + b = %f' % 123.44)
+    print('a + b = %.2f' % 123.444)
+
+someFunction()
+print(a)
+someFunction2(12, 451)
+
+a = 'abcdefxy'
+print('%.5s' % a)
