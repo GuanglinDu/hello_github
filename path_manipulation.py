@@ -4,8 +4,8 @@
 import os, sys
 
 current_path = os.path.dirname(os.path.abspath(__file__))
-python_path = os.path.abspath( os.path.join(current_path, os.pardir, 'python27', '1.0'))
-noarch_lib = os.path.abspath( os.path.join(python_path, 'lib', 'noarch'))
+python_path = os.path.abspath(os.path.join(current_path, os.pardir, 'python27', '1.0'))
+noarch_lib = os.path.abspath(os.path.join(python_path, 'lib', 'noarch'))
 
 # The variable sys.path is a list of strings that determines the interpreter's search path
 # for modules. It is initialized to a default path taken from the environment variable
@@ -18,7 +18,7 @@ def print_info():
     print("current_path = %s" % current_path)
     print("python_path = %s" % python_path)    
     print("noarch_lib = %s" % noarch_lib)    
-    print("Sys.path = %s" % sys.path)
+    print("sys.path = %s" % sys.path)
 
 # Call the function
 if __name__ == '__main__':

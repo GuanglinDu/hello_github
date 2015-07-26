@@ -3,6 +3,9 @@ The 1st test project on github to learn how to collaborate, created by Jia Lia &
 Oct. 15, 2014 Wed.
 """
 
+# A string object in this module
+hello = "Hello, Github"
+
 class HelloGithub(object):
     
     def __init__(self):
