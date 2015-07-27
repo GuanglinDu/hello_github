@@ -8,7 +8,7 @@ print(sampleList[1])
 print("")
 sampleList.append(10)
 sampleList.append(11)
-sampleList.insert(0, 0)
+sampleList.insert(0, 0) # insert as the first entry
 
 for a in sampleList:
     print(a)

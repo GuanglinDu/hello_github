@@ -1,10 +1,10 @@
 # Jun. 21, 2014 Sat.
-# classes.py
+# class_one.py
 # See http://www.afterhoursprogramming.com/tutorial/Python/Introduction/
 # Various tutorials: https://wiki.python.org/moin/BeginnersGuide/Programmers
 
+""" define class to simulate a simple calculator """
 class Calculator(object):
-    # define class to simulate a simple calculator
     def __init__(self):
         # Start with zero
         self.current = 0

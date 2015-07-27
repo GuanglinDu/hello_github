@@ -13,6 +13,7 @@ for a in myDict:
     print(a, myDict[a])
     
 # Retrieves a non-existent key
+# See http://stackoverflow.com/questions/6130768/return-none-if-dictionary-key-is-not-available
 print("--- Retrieves a non-existent key ---")
 print(myDict.get("non-existent")) # returns None
 print(myDict.get("non-existent", 30)) # returns 30
