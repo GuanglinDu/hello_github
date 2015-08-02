@@ -12,4 +12,4 @@ def bar():
     print "Leaving bar(), foo is", foo
 
 bar()
-print "And in module scope, foo is", foo
+print "And in the module scope, foo is", foo
