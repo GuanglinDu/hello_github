@@ -1,13 +1,13 @@
-"""
-module_demo.py
-To demonstrate the use of a Python module.
+"""module_demo.py
+Demonstrate how to use of a Python module.
 Created by DGL on Oct. 17, 2014 Fri.
 """
 
-# Import a module
+# Imports a whole module only. Qualifies its members when used.
 import hello_github
+# Imports only a variable from a module so as to use it directly
 from hello_github import hello
-# Import module bar from subfolder foo
+# Imports a module bar from package (subfolder) foo
 import foo.bar
 
 class ModuleDemo(object):
@@ -18,7 +18,9 @@ class ModuleDemo(object):
     
     def hello_module(self):
         print("Hi, in Python a module is a Python file!")
-        print("A variable imported from the moule: %s" % hello) # imported variable
+        #print("A variable imported from module hello_github: %s" % hello_github.hello) # qualify with the module name
+        # Uses the imported variable hello directly without qualifying it with the module name
+        print("A variable imported from module hello_github: %s" % hello)
     
     
     def hi_github(self):

@@ -1,9 +1,8 @@
-"""
-The 1st test project on github to learn how to collaborate, created by Jia Lia & Guanglin Du.
+"""The 1st test project on github to learn how to collaborate, created by Jia Lia & Guanglin Du.
 Oct. 15, 2014 Wed.
 """
 
-# A string object in this module
+# Defines a global str object in this module
 hello = "Hello, Github"
 
 """Object is the base class of all the other classes"""
