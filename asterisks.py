@@ -1,4 +1,5 @@
 # https://www.technovelty.org/python/on-asterisks-in-python.html
+# Create on Jul. 25, 2015 Sat.
 
 print("--- ordinary object + tuple + dictinary ---")
 def myfunction(arg, *vargs, **kargs):
@@ -25,6 +26,6 @@ def myfunction2(*vargs, **kargs):
     print vargs
     print kargs
 
-myfunction2(10, 11, key1="abc2", key2="def2") # list + dictinary
-myfunction2(10, 11) # tuple only
-myfunction2(key1="abc2", key2="def2") # dictionary only
+myfunction2(10, 11, key1="abc2", key2="def2") # a list + a dictinary
+myfunction2(10, 11) # a tuple only
+myfunction2(key1="abc2", key2="def2") # a dictionary only

@@ -6,10 +6,10 @@ myList = [1, 2, 3]
 myList.append(4)
 print(myList)
 
-myTuple = (1, 2, 3)
+myTuple = (1, 2)
 print(myTuple)
 print myTuple[0]
-print myTuple[2]
+#print myTuple[2] # index out of range
 
 myTuple2 = (1, 2, 3)
 myList2 = list(myTuple2)

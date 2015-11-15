@@ -1,26 +1,38 @@
 # Jun. 21, 2014 Sat.
-# classes.py
+# class_one.py
 # See http://www.afterhoursprogramming.com/tutorial/Python/Introduction/
 # Various tutorials: https://wiki.python.org/moin/BeginnersGuide/Programmers
 
 class Calculator(object):
-    # define class to simulate a simple calculator
+    """Defines a class to simulate a simple calculator"""
     def __init__(self):
-        # Start with zero
-        self.current = 0
+        """The constructor"""
+        self.result = 0 # defines a variable
+        self.greeting = "Hello, Python!"
     
     def add(self, amount):
-        # add number to current
-        self.current += amount
+        """Defines a method of the class"""
+        # add number to result
+        self.result += amount
     
-    def getCurrent(self):
-        return self.current
+    def get_result(self):
+        """Returns the value of variable result"""
+        return self.result
 
-# Use the class
-from class_one import *
-myBuddy = Calculator()
-myBuddy.add(2)
-sum1 = myBuddy.getCurrent()
-# Why print 2 times?
-print("sum = %i" % sum1)
-#print(myBuddy.getCurrent())
+# Use the class in another file by importing it
+#from class_one import * # No need to import in the same module(=file)
+
+# Like function main() in C
+if __name__ == "__main__":
+    # Creates an object
+    cal = Calculator()
+
+    # Accesses the variables directly from the object
+    print(cal.result)
+    print(cal.greeting)
+
+    # Calls method add
+    cal.add(2)
+    sum1 = cal.get_result()
+    print("sum = %i" % sum1)
+
