@@ -7,6 +7,7 @@ hello = "Hello, Github"
 
 """Object is the base class of all the other classes"""
 class HelloGithub(object):
+	
     def __init__(self):
         self.name = "github"
         

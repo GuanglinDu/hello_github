@@ -4,6 +4,7 @@
 # Various tutorials: https://wiki.python.org/moin/BeginnersGuide/Programmers
 
 class Calculator(object):
+	
     """Defines a class to simulate a simple calculator"""
     def __init__(self):
         """The constructor"""

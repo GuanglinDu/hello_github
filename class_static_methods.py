@@ -1,8 +1,9 @@
 # Class methods vs static methods vs instance methods
 # http://stackoverflow.com/questions/136097/what-is-the-difference-between-staticmethod-and-classmethod-in-python
 
-class MyClass(object):
+class MyClass(object):	
     """Refer to example_google.py for the Google Style Python Docstrings"""
+    
     def foo(self, x):
         """An instance method (the common one)
         
