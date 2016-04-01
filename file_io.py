@@ -11,3 +11,13 @@ print(f.readline())
 print(f.readline())
 f.close()
 
+f = open("test.txt","r") #opens file with name of "test.txt"
+contents = f.read()
+f.close()
+print("Type of contents: %s" % type(contents))
+print(contents)
+
+lines = contents.splitlines()
+print("Type of lines: %s" % type(lines))
+
+
