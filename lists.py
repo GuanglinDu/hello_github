@@ -26,7 +26,7 @@ for a in list02:
     print(a)
 
 # Way 3: creates a list object with the class name list explicitly
-print("--- Way 2: creates an empty list object and then populate it ---")
+print("--- Way 3: creates an empty list object and then populate it ---")
 list03 = list() # 
 list03.append(31)
 list03.insert(0, 30)
