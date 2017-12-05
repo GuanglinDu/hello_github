@@ -7,5 +7,8 @@
 def func(x):
     return x + 1;
 
-def test_answer():
+def test_should_equal():
+    assert func(3) == 4
+
+def test_should_not_equal():
     assert func(3) == 5
