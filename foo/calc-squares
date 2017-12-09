@@ -1,0 +1,7 @@
+#! /usr/bin/env python
+
+# Structuring, Testing, and Maintaining Python Programs
+# https://intermediate-and-advanced-software-carpentry.readthedocs.io/en/latest/structuring-python.html
+import squares
+
+squares.squares(0, 10)
