@@ -31,7 +31,7 @@ import locale
 import gettext
 
 APPNAME = "hello_gettext"
-default_lang =  'en_US'
+default_lang = 'en_US'
 
 # Determines the language path (the i10n path), ./lang, to load the correct language
 current_path = os.path.dirname(os.path.abspath(__file__))
@@ -68,4 +68,4 @@ except KeyError:
 #t = gettext.translation(APPNAME, TRANSLATION_ROOT, [default_lang])
 _ = t.ugettext
 
-print _("Hello World")
+print(_("Hello World"))

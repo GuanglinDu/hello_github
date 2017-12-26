@@ -11,7 +11,7 @@ class I18nTester(object):
         self.greeting = "Hello, Python!"
     
     def add(self, amount):
-        """Defines a method of the class"""
+        """Defines an instance method"""
         # add number to result
         self.result += amount
     
