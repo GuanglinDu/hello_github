@@ -33,7 +33,7 @@ import i18n_tester
 
 APPNAME = "i18n_util"
 # Either en_US or zh_CN
-default_lang =  'en_US'
+default_lang = 'en_US'
 
 # Determines the language path (the i10n path), ./lang, to load the correct language
 current_path = os.path.dirname(os.path.abspath(__file__))
@@ -67,7 +67,7 @@ def install():
     gettext.install(APPNAME, **kwargs)
 
 
-def set_language(language = 'en_US'):
+def set_language(language='en_US'):
     print("\n--- Your current locale: %s" % language)
     t = gettext.translation(APPNAME, localedir, [language])
     global _ # or only the default locale used
@@ -76,8 +76,8 @@ def set_language(language = 'en_US'):
 
 def test_me():    
     """Tests"""
-    print _("Hello World")
-    print _("i18n in Python is easy")
+    print(_("Hello World"))
+    print(_("i18n in Python is easy"))
 
 
 def test_in_class():
@@ -85,7 +85,7 @@ def test_in_class():
     it = i18n_tester.I18nTester()
 
     # Accesses the variables directly from the object
-    print(it.result)
+    #print(it.result)
     print(_(it.greeting))
 
     # Calls method add
