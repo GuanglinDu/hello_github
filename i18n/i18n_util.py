@@ -7,8 +7,8 @@
 # mkdir -pv lang/{de_DE,en_US,zh_CN}/LC_MESSAGES/
 
 # 1. Create the template (APPNAME = i18n_util)
-# xgettext -k_ -kN_  -o lang/i18n_util.pot i18n_util.py (a single file)
-# xgettext -k_ -kN_  -o lang/i18n_util.pot -f files-need-i10n.txt (file list)
+# xgettext -k_ -kN_ -o lang/i18n_util.pot i18n_util.py (a single file)
+# xgettext -k_ -kN_ -o lang/i18n_util.pot -f files-need-i10n.txt (file list)
 
 # 2. Translate the template to different locales
 # msginit --input=lang/i18n_util.pot --locale=en_US --output=lang/en_US/LC_MESSAGES/i18n_util.po
