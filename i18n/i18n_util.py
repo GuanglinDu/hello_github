@@ -91,7 +91,7 @@ def test_in_class():
     # Calls method add
     it.add(2)
     sum1 = it.get_result()
-    print("%s = %i" % ( _("sum"), sum1) )
+    print("%s = %i" % (_("sum"), sum1))
 
 
 # Tests with en_US, de_DE, and zh_CN
